@@ -45,17 +45,17 @@ export const Navbar = () => {
                 >
                     <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
                         <Link href='/#wie'>
-                            <a className='lg:inline-flex lg:w-auto w-full px-3 rounded text-white font-mono font-bold items-center justify-center hover:bg-indigo-700 hover:text-white '>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 rounded text-white font-mono font-bold items-center justify-center hover:bg-indigo-700 hover:text-white uppercase'>
                                 Wie
                             </a>
                         </Link>
                         <Link href='/#wat'>
-                            <a className='lg:inline-flex lg:w-auto w-full px-3 rounded text-white font-mono font-bold items-center justify-center hover:bg-indigo-700 hover:text-white'>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 rounded text-white font-mono font-bold items-center justify-center hover:bg-indigo-700 hover:text-white uppercase'>
                                 Wat
                             </a>
                         </Link>
                         <Link href='/#waar'>
-                            <a className='lg:inline-flex lg:w-auto w-full px-3 mr-20 rounded text-white font-monod font-bold items-center justify-center hover:bg-indigo-700 hover:text-white'>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 mr-20 rounded text-white font-monod font-bold items-center justify-center hover:bg-indigo-700 hover:text-white uppercase'>
                                 Waar
                             </a>
                         </Link>
