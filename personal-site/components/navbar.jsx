@@ -11,11 +11,11 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className='flex items-center flex-wrap bg-indigo-600 py-5 drop-shadow-lg sticky top-0 z-10'>
+            <nav className='flex items-center flex-wrap bg-indigo-600 py-5 px-20 lg:px-40 drop-shadow-lg sticky top-0 z-10'>
                 <Link href='/'>
-                    <a className='inline-flex items-center px-20 '>
+                    <a className='inline-flex items-center'>
                         <span className='text-xl text-white font-mono font-bold uppercase tracking-wide'>
-                            raphaelvanmarion.nl
+                            raphael van marion
                         </span>
                     </a>
                 </Link>
@@ -55,7 +55,7 @@ export const Navbar = () => {
                             </a>
                         </Link>
                         <Link href='/#waar'>
-                            <a className='lg:inline-flex lg:w-auto w-full px-3 mr-20 rounded text-white font-monod font-bold items-center justify-center hover:bg-indigo-700 hover:text-white uppercase'>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 rounded text-white font-monod font-bold items-center justify-center hover:bg-indigo-700 hover:text-white uppercase'>
                                 Waar
                             </a>
                         </Link>
